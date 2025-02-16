@@ -3,7 +3,6 @@ import css from './Options.module.css'
 const Options = ({ updateFeedback, totalFeedback, resetFeedback }) => {
   return (
     <div>
-      <h2>Please leave your feedback</h2>
       <div className={css.btn_container}>
       <button onClick={() => updateFeedback('good')}>Good</button>
       <button onClick={() => updateFeedback('neutral')}>Neutral</button>
